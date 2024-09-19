@@ -21,6 +21,8 @@ int main() {
     
     // ternary operator (conditional operator)
     int bigger_ternary = number1 > number2 ? number1 : number2;
+
+    // print results
     std::cout << "The bigger number is " << bigger << " (using normal if-else statement)" << std::endl;
     std::cout << "The bigger number is " << bigger_ternary << " (using ternary operator)" << std::endl;
     
